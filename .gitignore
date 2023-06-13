@@ -2,3 +2,6 @@ posts/*.md
 _site
 _bin
 deno.lock
+
+# OSX
+.DS_Store
