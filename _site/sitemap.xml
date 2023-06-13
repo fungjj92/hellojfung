@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://localhost:3000/</loc>
-    <lastmod>2023-06-13T10:26:27.020Z</lastmod>
+    <lastmod>2023-06-13T12:37:20.247Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.336Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/communication/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/community/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/fun/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/geospatial/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/hardware/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/pandemic/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/psychology/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/software/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/archive/technology/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/author/jenny-fung/</loc>
-    <lastmod>2023-06-13T12:16:25.149Z</lastmod>
+    <lastmod>2023-06-13T12:56:26.337Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/posts/</loc>
-    <lastmod>2023-06-13T10:26:27.028Z</lastmod>
+    <lastmod>2023-06-13T12:37:20.254Z</lastmod>
   </url>
   <url>
     <loc>http://localhost:3000/posts/mapboxgljs-style-nodata/</loc>
