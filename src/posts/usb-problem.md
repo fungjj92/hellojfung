@@ -12,6 +12,8 @@ tags:
 
 While I was traveling recently, I encountered an interesting technical problem. As someone who likes to travel light, I consolidated all of my cords and plugs into just a few types that could work with all of my devices. Specifically, I packed a USB C-C cord and a USB-C adapter plug, thinking that they would be versatile enough to work with all of my smaller devices, even though C-C was not necessarily the usual cord I used for all of them.
 
+<!--more-->
+
 During my layover, I tried to charge both my phone and my watch using my charging dock, which had a C port. I used my C adapter plug with the C-C cord, thinking that it would work perfectly. But to my surprise, I couldn't get any juice! I wondered if it was just the janky, wobbly airport outlet, but fortunately, a kind passenger lent me an A-C cord, which worked perfectly when plugged into an A outlet. Phew! I was able to charge my devices briefly before boarding the plane.
 
 But when I tried to use that same A-C cord on several seatback A ports on the plane, it didn't work at all. I was puzzled, but I just brushed it off as the outlets being fickle. After all, I was trapped on a plane, and there wasn't much I could do about it.
