@@ -8,7 +8,7 @@
     --color-text: hsl(220, 30%, 20%);
     --color-dim: hsl(220, 30%, 40%);
     --color-link: hsl(220, 30%, 10%);
-    --color-link-hover: hsl(220, 30%, 40%);
+    --color-link-hover: hsl(149, 21%, 54%);
     --color-line: hsl(47, 93%, 70%);
     --color-background: hsl(220, 30%, 100%);
 
@@ -40,8 +40,8 @@
       --color-base: hwb(47 31% 11%);
       --color-text: hsl(149, 21%, 54%);
       --color-dim: #D5896F;
-      --color-link: hsl(220, 30%, 10%);
-      --color-link-hover: hsl(219, 30%, 25%);
+      --color-link: var(--color-base);
+      --color-link-hover: var(--color-dim);
       --color-line: hsl(220, 20%, 20%);
       --color-background: #14181f;
     }

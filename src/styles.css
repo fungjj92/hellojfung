@@ -9,12 +9,6 @@
 @import "css/post.css";
 @import "css/variables.css";
 
-/* Make the links black */
-:root {
-  --color-link: var(--color-base);
-  --color-link-hover: var(--color-dim);
-}
-
 /* Page layout */
 main {
   padding: var(--row-gap-medium) 0;
@@ -29,4 +23,9 @@ main {
 /* Search tweak */
 .search {
   margin-top: var(--row-gap-xsmall);
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 10px;
 }
