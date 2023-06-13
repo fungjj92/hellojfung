@@ -5,9 +5,9 @@
     <link>http://localhost:3000/</link>
     <atom:link href="http://localhost:3000/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Here, I blog and share some creative work. Posts are tagged for organization and filtering but are otherwise the gang&apos;s all here.</description>
-    <lastBuildDate>Tue, 13 Jun 2023 12:56:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jun 2023 13:15:53 GMT</lastBuildDate>
     <language>en</language>
-    <generator>Lume v1.17.0</generator>
+    <generator>Lume v1.17.5</generator>
     <item>
       <title>If the USB fits, will it work?</title>
       <link>http://localhost:3000/posts/usb-problem/</link>
