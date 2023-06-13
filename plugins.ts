@@ -27,9 +27,9 @@ export default function (options: Options = {}) {
     const attemptedSplit = (page.data.content as string).split(
       /<!--\s*more\s*-->/i,
     );
-    const isPostTruncated = attemptedSplit.length > 1;
+    const isExcerptTruncated = attemptedSplit.length > 1;
     page.data.excerpt = attemptedSplit[0];
-    page.data.isTruncated = isPostTruncated;
+    page.data.isExcerptTruncated = isExcerptTruncated;
   }
 
   return (site: Site) => {

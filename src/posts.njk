@@ -37,7 +37,7 @@ menu:
       {{ post.data.excerpt | md | safe }}
     </div>
 
-    {% if post.data.isTruncated === true %}
+    {% if post.data.isExcerptTruncated === true %}
       <a href="{{ post.data.url }}" class="post-link">
         Continue reading →
       </a>
