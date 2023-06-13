@@ -14,7 +14,7 @@ import toc from "https://deno.land/x/lume_markdown_plugins@v0.4.0/toc.ts";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.4.0/image.ts";
 
 import type { Site } from "lume/core.ts";
-import type { CustomPage } from "src/types/core.ts";
+import type { CustomPage } from "types/core.ts";
 
 export interface Options {
   prism?: Partial<PrismOptions>;
