@@ -37,9 +37,11 @@ menu:
       {{ post.data.excerpt | md | safe }}
     </div>
 
-    <a href="{{ post.data.url }}" class="post-link">
-      Continue reading →
-    </a>
+    {% if post.data.isTruncated === true %}
+      <a href="{{ post.data.url }}" class="post-link">
+        Continue reading →
+      </a>
+    {% endif %}
   </article>
 {% endeach %}
 </section>

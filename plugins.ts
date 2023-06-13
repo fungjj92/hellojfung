@@ -13,7 +13,8 @@ import readingTime from "https://raw.githubusercontent.com/lumeland/experimental
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.4.0/toc.ts";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.4.0/image.ts";
 
-import type { Page, Site } from "lume/core.ts";
+import type { Site } from "lume/core.ts";
+import type { CustomPage } from "src/types/core.ts";
 
 export interface Options {
   prism?: Partial<PrismOptions>;
@@ -21,6 +22,16 @@ export interface Options {
 
 /** Configure the site */
 export default function (options: Options = {}) {
+
+  const createPageExcerptDetail = (page: CustomPage) => {
+    const attemptedSplit = (page.data.content as string).split(
+      /<!--\s*more\s*-->/i,
+    );
+    const isPostTruncated = attemptedSplit.length > 1;
+    page.data.excerpt = attemptedSplit[0];
+    page.data.isTruncated = isPostTruncated;
+  }
+
   return (site: Site) => {
     site.use(postcss())
       .use(basePath())
@@ -47,12 +58,8 @@ export default function (options: Options = {}) {
         },
       }))
       .copy("fonts")
-      .copy("favicon.png")
-      .preprocess([".md"], (page: Page) => {
-        page.data.excerpt ??= (page.data.content as string).split(
-          /<!--\s*more\s*-->/i,
-        )[0];
-      });
+      .copy([".jpg", ".png", ".svg", ".pdf"])
+      .preprocess([".md"], createPageExcerptDetail);
 
     // Basic CSS Design System
     site.remoteFile(

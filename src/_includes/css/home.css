@@ -1,0 +1,37 @@
+.home {
+    align-items: center;
+    display: flex;
+}
+
+.home-headshot--image {
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 840px) {
+    .home {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+.social {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .link-logo {
+        width: 50px;
+        height: auto;
+        display: inline-block;
+        margin-right: 10px;
+    
+        .linkedin {
+            height: inherit;
+            width: inherit;
+        }
+    }
+}
+
+

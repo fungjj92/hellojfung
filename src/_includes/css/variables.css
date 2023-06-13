@@ -9,8 +9,9 @@
     --color-dim: hsl(220, 30%, 40%);
     --color-link: hsl(220, 30%, 10%);
     --color-link-hover: hsl(220, 30%, 40%);
-    --color-line: hsl(220, 30%, 90%);
+    --color-line: hsl(47, 93%, 70%);
     --color-background: hsl(220, 30%, 100%);
+
   
     /* Fonts */
     --font-family-code: "DM Sans", Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;

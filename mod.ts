@@ -11,15 +11,7 @@ export default function (options: Partial<Options> = {}) {
 
     // Add remote files
     const files = [
-      "_includes/css/fonts.css",
-      "_includes/css/navbar.css",
-      "_includes/css/page.css",
-      "_includes/css/post-list.css",
-      "_includes/css/post.css",
-      "_includes/css/reset.css",
-      "_includes/css/badge.css",
-      "_includes/css/variables.css",
-      "_includes/css/search.css",
+      "_includes/css/*",
       "_includes/layouts/archive_result.njk",
       "_includes/layouts/archive.njk",
       "_includes/layouts/base.njk",
@@ -27,6 +19,8 @@ export default function (options: Partial<Options> = {}) {
       "_includes/layouts/post.njk",
       "_includes/templates/post-details.njk",
       "_includes/templates/post-list.njk",
+      "media/*",
+      "types/*",
       "fonts/inter.woff2",
       "fonts/inter-italic.woff2",
       "fonts/dmsans.woff2",

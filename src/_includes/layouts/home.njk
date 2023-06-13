@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+bodyClass: body-tag
+---
+<article class="home" data-pagefind-body>
+  <div class="home-headshot>
+    <div class="home-headshot--circle"></div>
+    <img class="home-headshot--image" src="/media/headshot_large.png">
+  </div>
+
+  <div class="home-content">
+    {{ content | safe }}
+
+    <div class="social">
+        <a class="link-logo" href="https://www.linkedin.com/in/j-fung" target="_blank" rel="noreferrer">
+            <img class="linkedin" src="/media/linkedin-mark.png">
+        </a>
+        <a class="link-logo" href="https://github.com/fungjj92" target="_blank" rel="noreferrer">
+            {% include "media/github-mark.svg" %}
+        </a>
+    </div>
+  </div>
+</article>
