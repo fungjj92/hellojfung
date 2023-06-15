@@ -15,6 +15,7 @@ export default function (options: Partial<Options> = {}) {
       "_includes/layouts/archive_result.njk",
       "_includes/layouts/archive.njk",
       "_includes/layouts/base.njk",
+      "_includes/layouts/home.njk",
       "_includes/layouts/page.njk",
       "_includes/layouts/post.njk",
       "_includes/templates/post-details.njk",
