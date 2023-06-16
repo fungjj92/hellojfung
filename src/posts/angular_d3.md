@@ -6,10 +6,13 @@ tags:
   - Technology
   - Software
   - Visualization
+  - Azavea
 ---
 
 ### Content preview
+> ![A gif of the final product in action](/media/ngscrubber.gif)
 > When Angular (Angular 2) came out in 2016, there was a vacuum period when popular libraries such as d3.js, Leaflet, and even Bootstrap, lagged behind in compatibility. Two years later, the Angular community has come a long way with reliable support libraries and blog posts. In 2016 we endeavored to use Angular and d3.js to visualize projected climate data from Azavea’s Climate API. One particular challenge was creating a data scrubber, a moving display of moused-over data in the d3.js visualization. *[Continue reading the full post][original post].*
+
 
 Written for the company blog of former employer Azavea.
 

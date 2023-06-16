@@ -58,7 +58,7 @@ export default function (options: Options = {}) {
         },
       }))
       .copy("fonts")
-      .copy([".jpg", ".png", ".svg", ".pdf"])
+      .copy([".jpg", ".jpeg", ".png", ".svg", ".pdf", ".gif"])
       .preprocess([".md"], createPageExcerptDetail);
 
     // Basic CSS Design System

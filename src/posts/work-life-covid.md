@@ -6,9 +6,11 @@ tags:
   - Community
   - Pandemic
   - Fun
+  - Azavea
 ---
 
 ### Content preview
+> ![A screenshot of former colleagues and I playing the online board game Dominion](/media/dominion.png)
 > 2020 was awful in this corner of the internet, too. The world shrank. Who was accessible changed radically. We, and the people around us, by necessity took on different roles. Including at work. *[Continue reading the full post][original post].*
 
 Written for the company blog of former employer Azavea.

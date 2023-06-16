@@ -10,29 +10,31 @@ tags:
 
 ### The Problem
 
-While I was traveling recently, I encountered an interesting technical problem. As someone who likes to travel light, I consolidated all of my cords and plugs into just a few types that could work with all of my devices. Specifically, I packed a USB C-C cord and a USB-C adapter plug, thinking that they would be versatile enough to work with all of my smaller devices, even though C-C was not necessarily the usual cord I used for all of them.
+While I was traveling recently, I encountered an interesting technical problem. As someone who likes to travel light, I consolidated all of my cords and plugs into the fewest types that in shape would work across all of my smaller devices. Specifically, I packed a USB C-C cord and a USB-C adapter plug. This was not necessarily the usual setup I had for each at home.
+
+![My multi-device charging dock](/media/chargingdock.png)
 
 <!--more-->
 
-During my layover, I tried to charge both my phone and my watch using my charging dock, which had a C port. I used my C adapter plug with the C-C cord, thinking that it would work perfectly. But to my surprise, I couldn't get any juice! I wondered if it was just the janky, wobbly airport outlet, but fortunately, a kind passenger lent me an A-C cord, which worked perfectly when plugged into an A outlet. Phew! I was able to charge my devices briefly before boarding the plane.
+During my layover, I tried to charge both my phone and my watch using my charging dock, which has a C port. To my surprise, I couldn't get any juice! I wondered if it was just the janky, wobbly airport outlet, but fortunately, a kind passenger lent me an A-C cord, which worked perfectly when plugged directly into an A outlet. Phew! I was able to charge my devices briefly before boarding the plane.
 
 But when I tried to use that same A-C cord on several seatback A ports on the plane, it didn't work at all. I was puzzled, but I just brushed it off as the outlets being fickle. After all, I was trapped on a plane, and there wasn't much I could do about it.
 
+![A child and their block toy](/media/blocktoy.jpeg)
+
 Up until now, I've always thought of USBs like a kid's block toy. If it fits, it should work, right? But the evidence was showing me that maybe it's not so simple.
 
-I had the impulse to throw the problem away and start fresh – I searched online to buy a new dock. However, I was sure the dock itself was not broken since it worked well at the airport. This was likely a solvable technical problem. I removed the item from my cart.
+I had the impulse to throw the problem away and start fresh – I searched online to buy a new dock. However, I was pretty sure the dock itself was not broken since it worked well at the airport. I suspected this was a solvable technical problem. I removed the item from my cart.
 
 ### Isolating the problem 
 
-First, I needed to verify that the C adapter and C-C cord I used were not broken. I tested them on my laptop, which charged successfully, although slowly. So, I could confirm that the cord and adapter were functional.
+First, I needed to verify that my tools were not broken. I tested the C-C cord and C adapter on my laptop, which charged successfully, although slowly. I confirmed that the cord and adapter were functional.
 
-Next, I needed to determine whether the various devices were compatible. I dug deep into my Amazon order history to find the details for the dock. I checked the device documentation and specs and discovered that the dock came with an A-C cord and a 15W USB-A adapter. I had used these without issue at home until the day before.
+Next, I needed to determine whether my dock had compatibility issues. I dug deep into my Amazon order history for the item listing. I checked the device documentation and specs and noticed that the dock came with an A-C cord and a 15W USB-A adapter. These are what I used at home without issue until the day before.
 
+I double-checked the C adapter output and saw that it was ~15W.
 
-
-I then double-checked the adapter output and saw that it was ~15W. A quick calculation using high school math (Volts x Amps = Watts) confirmed this.
-
-So each component was functional, just not together for some reason.
+So each component was functioning and appropriate, just not together for some reason.
 
 ### A Brief Deep Dive into USBs
 
@@ -48,12 +50,13 @@ USB-C is on track to become the standard USB type. In 2022, the [E.U famously pa
 
 Power can flow either way between devices connected via USB-C, with the important caveat that the devices themselves must decide which will act as either the power source or sink. This is a crucial communication step that is largely automatic via the USB hardware and relative level of device charge (if both devices have batteries). On [some devices][choose-usb-adventure], the direction of power flow can be chosen by the user. For USB-A, power flow is automatic and unidirectional from the A male plug as part of the spec.
 
-In the case of my charging dock, I noticed that no power was drawn when using the C-C cord and C adapter. Charging was successful using an A-C cord. My dock was cheaply manufactured in China for assumed use with an A-C cord, so I suspect that it lacks the hardware that declares itself the power sink. An electronics hobbyist on Reddit reported solving this with a simple solder job: soldering 5.1k resistor pulldowns onto both pins labelled "CC" on the C female port of his sink device (in my case, the charging dock). This fix was corroborated by descriptions of USB-C [boards for sale][boards-for-sale].
+In the case of my charging dock, I noticed that no power was drawn when using the C-only setup. Charging was successful using an A-C cord direct to socket. My dock was cheaply manufactured and was supplied with an A-C cord, so I suspect that it lacks the C hardware that declares itself the power sink. An electronics hobbyist on Reddit reported solving this with a simple solder job: soldering 5.1k resistor pulldowns onto both pins labelled "CC" on the C female port of his sink device (in my case, the charging dock). This fix was corroborated by descriptions of USB-C [boards for sale][boards-for-sale].
 
 ### Resolution
 
-I went to the store and walked away with an A-C cord and an A-C female to male adapter.
-This way, I could still use my C adapter plug. Now my devices are charging perfectly, so I'm happy with my solution.
+![As my solution, I purchased an A-C cord and A-C female to male adapter](/media/usbsolution.png)
+
+I went to the store and walked away with an A-C cord and an A-C female to male adapter. This way, I could still use my C adapter plug. Now my devices are charging perfectly, so I'm happy with my solution.
 
 The only mystery left unsolved is why my devices didn't charge on the plane. I think it might have been due to low voltage, but I don't have enough data to support this hypothesis.  
 

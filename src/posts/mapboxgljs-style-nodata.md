@@ -9,6 +9,7 @@ tags:
 ---
 
 ### Content preview
+> ![A screenshot of the problematic geometry: a no data polygon](/media/chloropleth.png)
 > This month I styled vector tiles with some no data values as a chloropleth using MapboxGLJS and Mapbox style expressions. The starting point was a step expression-based style generated in Mapbox Studio. When approaching styling vector tile maps, I’ve thus far relied on Mapbox Studio for style code because the leanness of Mapbox expression syntax is hard to reason about and write from scratch. The Studio code is usually sufficient, but we ran into a problem here visualizing no data geometries. *[Continue reading the full post][original post].*
 
 Written for the company blog of former employer Azavea.
