@@ -16,7 +16,7 @@ tags:
 
 Jenny waited for the train to Olney Station.  
 She wore sneakers, tights, and a trash bag.  
-Some people on the train also wore sneakers and tights.
+Some people on the train also wore sneakers and tights.  
 Other people wore shorts.  
 “Are you Neta’s Mom? I thought so! Patrick is in her class. I was in your house, once.”  
 People looked at their watches.  
@@ -31,7 +31,7 @@ Jenny danced briefly.
 The crowd started to run, so Jenny started to run.  
 Some neighborhood residents cheered and watched from their porches.  
 Some DJs and Emcees set up booths along the way.  
-“I like them shoes!”
+“I like them shoes!”  
 After 2 miles, it started to rain.  
 It rained for 8 miles.  
 Jenny glanced down only to avoid puddles.  
