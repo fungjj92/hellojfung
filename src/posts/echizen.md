@@ -1,6 +1,6 @@
 ---
 title: A Day Trip to the Ancient Crafts of Echizen
-date: 2023-06-26T10:10:10
+date: 2023-09-23T23:10:10
 author: Jenny Fung
 tags:
   - Travel
