@@ -10,9 +10,11 @@ tags:
 ---
 ### TLDR
 
-I visited Echizen, a small city in the Japan countryside, famous for a long history of crafts. Echizen has a unique, little-known, and growing tourism program. To help future English-speaking tourists, I made these public resources that map program locations to Google Maps: [spreadsheet][englishlocationlist], [google map][englishmap]. Use and copy freely!
+I visited Echizen, a small city in the Japan countryside, famous for a long history of crafts. Echizen has a unique, little-known, and growing tourism program. To help future English-speaking tourists, I made public resources that map program locations to Google Maps. Use and copy freely!
 
 <!--more-->
+
+The resources: [spreadsheet][englishlocationlist], [google map][englishmap].
 
 ### Off the Beaten Path
 
