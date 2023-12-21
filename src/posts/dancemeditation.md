@@ -23,9 +23,7 @@ slide down and warm into my lungs.
 
 Breathe out. 
 
-I picture the air radiate outward into my lowering
-<!--more-->
-shoulders,  
+I picture the air radiate outward into my lowering shoulders,<!--more-->     
 through my biceps,  
 down my sinewy forearms,  
 and finally swirl into my fingertips.  
@@ -67,4 +65,4 @@ How will you respond?
 
 ---
 
-Thank you endlessly to my late dance mentor Manfred Fischbeck for seeing and encouraging the creativity in me, even from his hospital bed. This was/is by some magic a self-regenerating gift.
+Thank you endlessly to my late and great dance mentor Manfred Fischbeck for seeing and encouraging the creativity in me, even from his hospital bed. This was/is by some magic a self-regenerating gift.
