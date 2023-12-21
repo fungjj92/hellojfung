@@ -24,5 +24,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3
         with:
           build_dir: _site
+          fqdn: hellojfung.com
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
