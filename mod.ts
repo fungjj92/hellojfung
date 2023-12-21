@@ -33,6 +33,7 @@ export default function (options: Partial<Options> = {}) {
       "index.njk",
       "styles.css",
       "favicon.png",
+      "CNAME"
     ];
 
     for (const file of files) {
