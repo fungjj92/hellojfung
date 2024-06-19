@@ -1,4 +1,4 @@
-a---
+---
 title: 3 Noises
 date: 2024-04-12
 author: Jenny Fung
@@ -8,10 +8,7 @@ tags:
   - Women characters
 ---
 
-**Prompt: Write a story that includes 3 sounds I hear around me**
-
----
-## 3 Noises
+> Prompt: Write a story that includes 3 sounds I hear around me
 
 _Kkkkk...kkk...kkk..._ 2 weeks away. Week over week, the familiar static had become a pavlov's bell for a little snooze as she lay heavy and horizontal. Today, though, sleep was chased just out of reach by a spike of anxiety.
 
@@ -22,3 +19,5 @@ _Kkkkk...kkk...kkk..._ 2 weeks away. Week over week, the familiar static had bec
 ---
 
 I wrote this short story on the back of a receipt in a bustling bar with a record player. It was inspired by an extended family member that was due any day.
+
+---

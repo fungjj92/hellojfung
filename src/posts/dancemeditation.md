@@ -8,10 +8,9 @@ tags:
   - Poetry
 ---
 
-I wrote this poem for the Heritage Dance Project with Group Motion Dance Company in late 2020. At that time, as for many, I felt broken. My body, my identity, creativity, all felt so foreign to me. I struggled with the project's prompt to explore my heritage through dance, song, and text. Still, with encouragement, I forced myself to try. To attempt moving and expressing again, and see what happened. Within those awkward attempts, I found some simple truths I could write about honestly: how dancing/moving feels to me and how the process of doing improv dancing had wider wisdom and questions for me. 3 years later, I find the strong visuals in this text force me into breath and movement as I read it. I hope it can help you find the same.
+> I wrote this poem for the Heritage Dance Project with Group Motion Dance Company in late 2020. At that time, as for many, I felt broken. My body, my identity, creativity, all felt so foreign to me. I struggled with the project's prompt to explore my heritage through dance, song, and text. Still, with encouragement, I forced myself to try. To attempt moving and expressing again, and see what happened. Within those awkward attempts, I found some simple truths I could write about honestly: how dancing/moving feels to me and how the process of doing improv dancing had wider wisdom and questions for me. 3 years later, I find the strong visuals in this text force me into breath and movement as I read it. I hope it can help you find the same.
 
----
-## A Dance Meditation
+### A Dance Meditation
 
 When I shut off the mind voice,  
 the devil,  
@@ -66,3 +65,5 @@ How will you respond?
 ---
 
 Thank you endlessly to my late and great dance mentor Manfred Fischbeck for seeing and encouraging the creativity in me, even from his hospital bed. This was/is by some magic a self-regenerating gift.
+
+---

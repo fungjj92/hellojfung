@@ -42,9 +42,9 @@ bodyClass: body-post
     {%- set previousPost = search.previousPage(url, "type=post") %}
     {%- if previousPost %}
     <li class="pagination-prev">
-      <a href="{{ previousPost.data.url }}" rel="prev">
+      <a href="{{ previousPost.url }}" rel="prev">
         <span>← Older post</span>
-        <strong>{{ previousPost.data.title }}</strong>
+        <strong>{{ previousPost.title }}</strong>
       </a>
     </li>
     {% endif %}
@@ -52,9 +52,9 @@ bodyClass: body-post
     {%- set nextPost = search.nextPage(url, "type=post") %}
     {%- if nextPost %}
     <li class="pagination-next">
-      <a href="{{ nextPost.data.url }}" rel="next">
+      <a href="{{ nextPost.url }}" rel="next">
         <span>Newer post →</span>
-        <strong>{{ nextPost.data.title }}</strong>
+        <strong>{{ nextPost.title }}</strong>
       </a>
     </li>
     {% endif %}
