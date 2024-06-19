@@ -19,5 +19,3 @@ _Kkkkk...kkk...kkk..._ 2 weeks away. Week over week, the familiar static had bec
 ---
 
 I wrote this short story on the back of a receipt in a bustling bar with a record player. It was inspired by an extended family member that was due any day.
-
----

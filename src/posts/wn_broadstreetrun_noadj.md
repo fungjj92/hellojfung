@@ -8,10 +8,8 @@ tags:
   - Philadelphia
 ---
 
+> Prompt: Write in short clear sentences and avoid using adjectives/adverbs
 
-**Prompt: Write in short clear sentences and avoid using adjectives/adverbs**
-
----
 ### The Broad Street Run
 
 Jenny waited for the train to Olney Station.  

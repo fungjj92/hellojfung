@@ -8,10 +8,8 @@ tags:
   - Story
 ---
 
+> Prompt: Write a story backwards that contains a plot twist
 
-**Prompt: Write a story backwards that contains a plot twist**
-
----
 ### No Cameras
 
 Two people sitting next to each other accidentally bump their forearms, and it’s sticky. Now this, but times 30.

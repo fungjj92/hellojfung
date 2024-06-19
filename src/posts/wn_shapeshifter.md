@@ -8,7 +8,7 @@ tags:
   - Story
 ---
 
-> Prompt: Write about the kyptonite of the super power shapeshifting**
+> Prompt: Write about the kyptonite of the super power shapeshifting
 
 ### Transcript from a Super Powers Anonymous meeting
 
