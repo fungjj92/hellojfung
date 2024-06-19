@@ -9,7 +9,7 @@ import metas from "lume/plugins/metas.ts";
 import pagefind from "lume/plugins/pagefind.ts";
 import sitemap from "lume/plugins/sitemap.ts";
 import feed from "lume/plugins/feed.ts";
-import readingInfo from "lume/plugins/reading_info.ts";
+import readingInfo from "https://deno.land/x/lume@v2.2.1/plugins/reading_info.ts";
 import toc from "https://deno.land/x/lume_markdown_plugins@v0.4.0/toc.ts";
 import image from "https://deno.land/x/lume_markdown_plugins@v0.4.0/image.ts";
 
